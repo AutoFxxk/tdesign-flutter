@@ -15,6 +15,7 @@ class TDCalendarStyle {
     this.cellDecoration,
     this.cellPrefixStyle,
     this.cellSuffixStyle,
+    this.verticalGap
   });
 
   BoxDecoration? decoration;

@@ -92,7 +92,7 @@ class TDCalendarBody extends StatelessWidget {
                   children: List.generate(
                     7,
                     (colIndex) => [
-                      if (colIndex != 0) SizedBox(width: verticalGap / 2),
+                      if (colIndex != 0) SizedBox(width: verticalGap * 2),
                       Expanded(
                         child: builder(
                           monthData[rowIndex * 7 + colIndex],
